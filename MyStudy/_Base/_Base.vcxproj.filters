@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{2beae5f0-d89a-4ee2-b46b-84e2e7a9e3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{93b280a6-0f38-4a33-b542-3ee94cc95346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinAPI">
+      <UniqueIdentifier>{edda8e76-b570-48c0-bd29-c0c4deb8646f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{7b190d8b-e0e3-4aaf-9b7d-0d0900e4f6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\Directory">
+      <UniqueIdentifier>{ef20c039-3ddd-4aee-9acf-452c6f763d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\File">
+      <UniqueIdentifier>{2ac022b0-7263-4a7a-a368-d473ccbc8a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\Path">
+      <UniqueIdentifier>{d79dbfdb-0339-4aba-887c-b046720e7f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{24c69773-466f-4f7b-acd9-c1bcba9dd323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{3283e0b0-f493-4fe6-8ea8-b01603168d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{1e441bc9-2f22-4034-a4de-7420e8171109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ColorRGB">
+      <UniqueIdentifier>{a5d73489-1aa5-4abe-bd7e-266ddd67bbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rand">
+      <UniqueIdentifier>{0a4b39f1-b355-412f-a1b8-af9a4a95da29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseDefine.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="WINDOW.h">
+      <Filter>WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="JTIME.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GEOMETRY.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory.h">
+      <Filter>IO\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="FILE.h">
+      <Filter>IO\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>IO\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="JTemplate.h" />
+    <ClInclude Include="ColorRGB.h">
+      <Filter>ColorRGB</Filter>
+    </ClInclude>
+    <ClInclude Include="Well512.h">
+      <Filter>Rand</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IO.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="WINDOW.cpp">
+      <Filter>WinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="JTIME.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory.cpp">
+      <Filter>IO\Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="FILE.cpp">
+      <Filter>IO\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>IO\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="GEOMETRY.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRGB.cpp">
+      <Filter>ColorRGB</Filter>
+    </ClCompile>
+    <ClCompile Include="Well512.cpp">
+      <Filter>Rand</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
